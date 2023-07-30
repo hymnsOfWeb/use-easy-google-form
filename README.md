@@ -1,7 +1,7 @@
 # Easy Google Form React Hook
 
 ## Installation
-  Run `npm install @hymnsofweb/use-easy-google-form` or `yarn add @hymnsofweb/use-easy-google-form` to install the package.  
+  Run `npm install @hymns-of-web/use-easy-google-form` or `yarn add @hymns-of-web/use-easy-google-form` to install the package.  
 
 ## Usage
-  - import the hook: `import { useEasyGoogleForm } from '@hymnsofweb/use-easy-google-form'`
+  - import the hook: `import { useEasyGoogleForm } from '@hymns-of-web/use-easy-google-form'`

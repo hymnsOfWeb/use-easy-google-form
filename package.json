@@ -1,5 +1,5 @@
 {
-  "name": "@hymnsofweb/use-easy-google-form",
+  "name": "@hymns-of-web/use-easy-google-form",
   "version": "1.0.1",
   "description": "Modular utility hooks that we often use grouped in one package. Written in TypeScript, documented, tested and maintained.Disclaimer: at least React 16 is needed (the one with hooks ;) )",
   "author": "Gobind Singh @ Hymns of Web",
