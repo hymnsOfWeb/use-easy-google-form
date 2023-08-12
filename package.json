@@ -1,6 +1,6 @@
 {
   "name": "@hymns-of-web/use-easy-google-form",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Easily post google forms using react hook",
   "author": "Gobind Singh @ Hymns of Web",
   "license": "MIT",
@@ -16,35 +16,40 @@
     "npm": ">=9"
   },
   "scripts": {
+    "prebuild": "rimraf dist",
     "build": "rollup -c",
+    "postbuild": "rimraf dist/hooks",
     "start": "rollup -c -w",
     "test": "jest",
     "lint": "eslint src --ext .ts,.tsx"
   },
   "peerDependencies": {
-    "react": ">= 16.8.0",
-    "react-dom": ">= 16.8.0"
+    "react": ">= 16",
+    "react-dom": ">= 16"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.22.5",
     "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.3",
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.2",
     "@types/react": "^17",
     "@types/react-dom": "^17",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
     "eslint": "^8.46.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.33.1",
     "prettier": "3.0.0",
     "react": "^17",
     "react-dom": "^17",
+    "rimraf": "^5.0.1",
     "rollup": "^3",
-    "typescript": "^5",
-    "@rollup/plugin-commonjs": "^25.0.3",
-    "@typescript-eslint/eslint-plugin": "^6.2.0"
+    "rollup-plugin-dts": "^5.3.1",
+    "typescript": "^5"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "keywords": [
     "react",

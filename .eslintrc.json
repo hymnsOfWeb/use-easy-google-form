@@ -6,6 +6,7 @@
   ],
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "parser": "@typescript-eslint/parser",
+  "ignorePatterns": ["node_modules/", "dist/"],
   "env": { "browser": true, "node": true, "es6": true, "jest": true },
   "parserOptions": {
     "sourceType": "module"
