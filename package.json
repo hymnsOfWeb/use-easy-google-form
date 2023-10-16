@@ -1,6 +1,6 @@
 {
   "name": "@hymns-of-web/use-easy-google-form",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Easily post google forms using react hook",
   "author": "Gobind Singh @ Hymns of Web",
   "license": "MIT",
@@ -60,6 +60,7 @@
     "google form",
     "use google form",
     "use easy google form",
-    "use-easy-google-form"
+    "use-easy-google-form",
+    "react google form"
   ]
 }
